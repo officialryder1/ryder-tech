@@ -1,6 +1,5 @@
 <script>
   import { X, Globe, Paintbrush, Search, PenTool, ArrowBigRight } from '@lucide/svelte';
-  let { showOffers = false} = $props();
 
   const services = [
     {
@@ -34,23 +33,17 @@
   ];
 </script>
 
-<!-- Trigger Button -->
-<div class="text-center">
-  <button class="btn bg-green-500 hover:scale-105 transition-transform duration-300 mt-6" on:click={() => (showOffers = !showOffers)}>
-    See What We Offer <ArrowBigRight class="w-5 h-5" />
-  </button>
-</div>
+<svelte:head>
+	<title>Our Work - RyderTech</title>
+	<meta name="description" content="Explore our portfolio of web design and development projects. See how we can help elevate your brand online.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Modal / Section -->
-{#if showOffers}
-  <div class="fixed inset-0 bg-black/60 z-50 flex items-center justify-center ">
-    <div class="bg-white dark:bg-gray-900 text-gray-800 dark:text-white w-full max-w-5xl mx-4 p-8 rounded-lg shadow-lg relative animate-fade-in-up overflow-y-auto max-h-[90vh] mt-10">
-      <!-- Close Button -->
-      <button class="absolute top-4 right-4 text-gray-200 hover:text-red-600" on:click={() => (showOffers = false)}>
-        <X class="w-6 h-6" />
-      </button>
+</svelte:head>
 
-      <h2 class="text-3xl font-bold mb-6 text-center tracking-wider font-mono">OUR OFFERINGS</h2>
+<div class=" bg-base-300 flex items-center justify-center mt-10" id="service">
+    <div class="bg-white dark:bg-base-200 text-gray-800 dark:text-white w-full max-w-5xl mx-4 p-8 rounded-lg shadow-lg relative animate-fade-in-up  max-h-[90vh]">
+
+      <h2 class="text-3xl font-bold mb-6 text-center tracking-wider shadow-lg shadow-accent-content">OUR SERVICES</h2>
 
       <div class="grid sm:grid-cols-2 lg:grid-cols-2 gap-6">
         {#each services as service}
@@ -70,23 +63,4 @@
         {/each}
       </div>
     </div>
-  </div>
-{/if}
-
-<style>
-  .animate-fade-in-up {
-    animation: fadeInUp 0.4s ease-out;
-  }
-
-  @keyframes fadeInUp {
-    from {
-      transform: translateY(20px);
-      opacity: 0;
-    }
-
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-</style>
+</div>

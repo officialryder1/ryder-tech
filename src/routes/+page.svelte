@@ -5,11 +5,13 @@
     import Testimonial from "$lib/components/Testimonial.svelte";
     import BlogSection from "$lib/components/BlogSection.svelte";
     import Contact from "$lib/components/Contact.svelte";
+    import Service from "$lib/components/Service.svelte"
 
 </script>
 
 <Hero/>
 <Section />
+<Service />
 <OurWork />
 <Testimonial />
 <BlogSection />

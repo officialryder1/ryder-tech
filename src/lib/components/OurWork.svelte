@@ -49,7 +49,7 @@
 
 </svelte:head>
 
-<section class="py-20 bg-base-100 text-base-content" id="service">
+<section class="py-20 bg-base-100 text-base-content">
 	<div class="max-w-6xl mx-auto px-4">
 		<div class="text-center mb-12">
 			<h2 class="text-4xl font-bold text-green-500">Our Work</h2>

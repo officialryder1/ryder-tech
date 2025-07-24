@@ -12,7 +12,7 @@
     <meta name="description" content="Learn more about RyderTech, our mission, and how we can help you grow your business online.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </svelte:head>
-<section class="py-24 bg-base-200 text-white px-4 md:px-12 lg:px-20" id="about">
+<section class="py- bg-base-200 text-white px-4 md:px-12 lg:px-20" id="about">
   <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
     
     <!-- Left: Animated Image -->
@@ -81,7 +81,7 @@
   </div>
   <!-- Logo Marquee -->
   <div class="mt-16">
-    <div class="text-center text-lg font-semibold mb-4 text-gray-400 shadow-2xl shadow-amber-400">Trusted by brands like:</div>
+    <div class="text-center text-lg font-semibold mb-4 text-gray-400 shadow-lg shadow-amber-400">Trusted by brands like:</div>
     <div class="overflow-hidden whitespace-nowrap animate-marquee space-x-12 flex items-center justify-center">
       <img src="/logos/google.svg" class="h-10 grayscale hover:grayscale-0 transition duration-300" alt="google"/>
       <img src="/logos/netflix.svg" class="h-10 grayscale hover:grayscale-0 transition duration-300" alt="netflix" />
