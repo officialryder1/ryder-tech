@@ -19,7 +19,7 @@
 
 			<!-- Main Heading -->
 			<h1 class="text-4xl sm:text-2xl  lg:text-4xl font-extrabold leading-tight tracking-tight">
-				Giving Your <span class="text-primary">Brands</span> A Voice
+				Giving Your <span class="text-primary">Brands</span> a Voice
 			</h1>
 
 			<!-- Subtext -->
