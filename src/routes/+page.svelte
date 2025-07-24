@@ -5,6 +5,7 @@
     import Testimonial from "$lib/components/Testimonial.svelte";
     import BlogSection from "$lib/components/BlogSection.svelte";
     import Contact from "$lib/components/Contact.svelte";
+
 </script>
 
 <Hero/>

@@ -1,6 +1,6 @@
 <script>
   import { X, Globe, Paintbrush, Search, PenTool, ArrowBigRight } from '@lucide/svelte';
-  let showOffers = false;
+  let { showOffers = false} = $props();
 
   const services = [
     {
