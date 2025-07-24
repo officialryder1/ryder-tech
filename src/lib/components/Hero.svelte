@@ -19,7 +19,7 @@
 
 			<!-- Main Heading -->
 			<h1 class="text-4xl sm:text-2xl  lg:text-4xl font-extrabold leading-tight tracking-tight">
-				We Grow <span class="text-primary">Brands</span> Online
+				Giving Your <span class="text-primary">Brands</span> A Voice
 			</h1>
 
 			<!-- Subtext -->
