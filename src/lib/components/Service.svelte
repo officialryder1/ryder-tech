@@ -41,9 +41,9 @@
 </svelte:head>
 
 <div class=" bg-base-300 flex items-center justify-center mt-10" id="service">
-    <div class="bg-white dark:bg-base-200 text-gray-800 dark:text-white w-full max-w-5xl mx-4 p-8 rounded-lg shadow-lg relative animate-fade-in-up  max-h-[90vh]">
+    <div class="bg-white dark:bg-base-200 text-gray-800 dark:text-white w-full max-w-5xl mx-4 p-8 rounded-lg shadow-lg relative animate-fade-in-up ">
 
-      <h2 class="text-3xl font-bold mb-6 text-center tracking-wider shadow-lg shadow-accent-content">OUR SERVICES</h2>
+      <h2 class="text-3xl font-bold mb-6 text-center tracking-wider shadow-lg shadow-accent-content text-green-400">OUR SERVICES</h2>
 
       <div class="grid sm:grid-cols-2 lg:grid-cols-2 gap-6">
         {#each services as service}
