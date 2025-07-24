@@ -1,6 +1,7 @@
 <script>
-	
     import { ArrowBigRight, SparkleIcon } from '@lucide/svelte';
+	import OfferModel from '$lib/components/OfferModel.svelte';
+	
 </script>
 
 <div class="relative hero min-h-screen bg-cover bg-center" style="background-image: url('/hero-bg.jpg')">
@@ -32,11 +33,12 @@
 			</p>
 
 			<!-- Call-to-Action Button -->
-			<a href="/services" class="btn bg-green-500 gap-2 hover:scale-105 transition-transform duration-300">
+			<!-- <a href="/services" class="btn bg-green-500 gap-2 hover:scale-105 transition-transform duration-300">
 				See What We Offer
 				<ArrowBigRight class="w-5 h-5" />
-			</a>
+			</a> -->
 		</div>
+		<OfferModel />
         <!-- Marquee at bottom of hero -->
         
         <div class="absolute bottom-5 left-0 w-full  overflow-hidden">
