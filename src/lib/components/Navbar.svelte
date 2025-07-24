@@ -52,7 +52,7 @@
 			<a href="#service" on:click={toggleMenu} class="hover:text-green-500 uppercase font-bold tracking-wide">Services</a>
 			<a href="#about" on:click={toggleMenu} class="hover:text-green-500 uppercase font-bold tracking-wide">About</a>
 			<a href="#contact" on:click={toggleMenu} class="hover:text-green-500 uppercase font-bold tracking-wide">Contact</a>
-            <a href="/login" class="flex btn btn-primary btn-lg w-md hover:bg-green-700 transition-all duration-500 uppercase"><User /> Login</a>
+            <a href="/login" class="flex btn btn-primary btn-lg w-md hover:bg-green-700 transition-all duration-500 uppercase" on:click={toggleMenu}><User /> Login</a>
 		</div>
 	{/if}
 </nav>
