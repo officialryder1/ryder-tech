@@ -36,7 +36,7 @@
 
 <!-- Trigger Button -->
 <div class="text-center">
-  <button class="btn bg-green-500 hover:scale-105 transition-transform duration-300 sm:text-sm md:text-sm" on:click={() => (showOffers = !showOffers)}>
+  <button class="btn bg-green-500 hover:scale-105 transition-transform duration-300 sm:text-sm md:text-sm text-[0.7rem]" on:click={() => (showOffers = !showOffers)}>
     Explore Our Services <ArrowBigRight class="w-5 h-5" />
   </button>
 </div>
