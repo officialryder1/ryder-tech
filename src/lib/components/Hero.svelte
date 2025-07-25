@@ -1,5 +1,5 @@
 <script>
-    import { ArrowBigRight, SparkleIcon } from '@lucide/svelte';
+    import { ArrowBigRight, SparkleIcon, School } from '@lucide/svelte';
 	import OfferModel from '$lib/components/OfferModel.svelte';
 	
 </script>
@@ -33,12 +33,16 @@
 			</p>
 
 			<!-- Call-to-Action Button -->
-			<!-- <a href="/services" class="btn bg-green-500 gap-2 hover:scale-105 transition-transform duration-300">
-				See What We Offer
-				<ArrowBigRight class="w-5 h-5" />
-			</a> -->
 		</div>
-		<OfferModel />
+		<div class="flex items-center gap-4">
+			<OfferModel />
+			<a href="/skill" class="btn btn-outline btn-secondary gap-2 hover:scale-105 transition-transform duration-300">
+				Acquire a Skill
+				<School class="w-5 h-5" />
+			</a>
+
+		</div>
+		
         <!-- Marquee at bottom of hero -->
         
         <div class="absolute bottom-5 left-0 w-full  overflow-hidden">
