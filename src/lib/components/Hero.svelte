@@ -36,7 +36,7 @@
 		</div>
 		<div class="flex items-center gap-4">
 			<OfferModel />
-			<a href="/skill" class="btn btn-outline btn-secondary gap-2 hover:scale-105 transition-transform duration-300">
+			<a href="/skill" class="btn btn-outline btn-secondary gap-2 hover:scale-105 transition-transform duration-300 text-[0.7rem] sm:text-sm md:text-sm">
 				Acquire a Skill
 				<School class="w-5 h-5" />
 			</a>
