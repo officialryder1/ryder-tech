@@ -1,5 +1,5 @@
 <script>
-	import { Mail, MapPin, User, Layers3, Phone } from '@lucide/svelte';
+	import { Mail, MapPin, User, Layers3, Phone, X } from '@lucide/svelte';
     import { fade, fly } from 'svelte/transition';
 
 	let name = '';
@@ -9,6 +9,7 @@
 	let selectedSkill = '';
 	let submitted = false;
     let loading = false;
+    let alert = false
 
 	const skills = [
 		'Web Development',
@@ -51,6 +52,7 @@
 					location = '';
 					selectedSkill = '';
 				} else {
+                  
 					alert('Submission failed. Please try again.');
 				}
 			} catch (err) {
@@ -60,7 +62,7 @@
                 loading = false;
             }
 		} else {
-			alert('Please fill in all fields.');
+            alert = true;
 		}
 	}
 </script>
@@ -72,9 +74,15 @@
 		border: 1px solid rgba(255, 255, 255, 0.2);
 	}
 </style>
-
 <section class="min-h-screen px-4 py-20 bg-gradient-to-br from-blue-900 via-purple-900 to-black text-white" in:fade={{duration:700,}} out:fly={{ y: 100, duration: 300 }}>
-	<div class="max-w-3xl mx-auto text-center mb-12">
+    {#if alert}
+        <div class="flex justify-between alert alert-error h-[50px]" transition:fly={{duration:300, y:-100}}>
+            <p class="card-body text-white font-bold">Please fill in all fields. </p>
+            <span on:click={() => alert = !alert}><X /><span>
+        </div><br>
+      
+    {/if}
+    <div class="max-w-3xl mx-auto text-center mb-12">
 		<h2 class="text-4xl sm:text-5xl font-bold leading-tight mb-4 text-green-300">Acquire a Digital Skill</h2>
 		<p class="text-gray-300 text-lg">Choose a skill to start your tech journey. We’ll follow up via email shortly after.</p>
 	</div>
