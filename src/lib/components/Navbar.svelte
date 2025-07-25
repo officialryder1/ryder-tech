@@ -39,19 +39,19 @@
 	<!-- Desktop Menu -->
 	<ul class="hidden md:flex space-x-6 text-lg font-medium pr-5">
 		<li><a href="#blog" class="hover:text-green-400 uppercase ">blog</a></li>
-		<li><a href="#service" class="hover:text-green-400 uppercase tracking-wide">Services</a></li>
-		<li><a href="#about" class="hover:text-green-400 uppercase tracking-wide">About</a></li>
-		<li><a href="#contact" class="hover:text-green-400 uppercase tracking-wide ">Contact</a></li>
+		<li><a href="../#service" class="hover:text-green-400 uppercase tracking-wide">Services</a></li>
+		<li><a href="../#about" class="hover:text-green-400 uppercase tracking-wide">About</a></li>
+		<li><a href="../#contact" class="hover:text-green-400 uppercase tracking-wide ">Contact</a></li>
         <li hidden><a href="/" class="flex btn bg-accent-content hover:bg-green-900 transition-all duration-300 text-green-400 font-bold"><User /> Login</a></li>
 	</ul>
 
 	<!-- Mobile Fullscreen Menu -->
 	{#if isOpen}
 		<div class="fixed inset-0 bg-[#06265d]/100 text-white flex flex-col items-center justify-center space-y-8 text-2xl font-semibold transition-all duration-500 z-40" in:fade={{ duration: 300 }} out:fly>
-			<a href="#blog" on:click={toggleMenu} class="hover:text-green-500 uppercase font-bold tracking-wide">Blog</a>
-			<a href="#service" on:click={toggleMenu} class="hover:text-green-500 uppercase font-bold tracking-wide">Services</a>
-			<a href="#about" on:click={toggleMenu} class="hover:text-green-500 uppercase font-bold tracking-wide">About</a>
-			<a href="#contact" on:click={toggleMenu} class="hover:text-green-500 uppercase font-bold tracking-wide">Contact</a>
+			<a href="../#blog" on:click={toggleMenu} class="hover:text-green-500 uppercase font-bold tracking-wide">Blog</a>
+			<a href="../#service" on:click={toggleMenu} class="hover:text-green-500 uppercase font-bold tracking-wide">Services</a>
+			<a href="../#about" on:click={toggleMenu} class="hover:text-green-500 uppercase font-bold tracking-wide">About</a>
+			<a href="../#contact" on:click={toggleMenu} class="hover:text-green-500 uppercase font-bold tracking-wide">Contact</a>
             <a href="/login" class="flex btn btn-primary btn-lg w-md hover:bg-green-700 transition-all duration-500 uppercase" on:click={toggleMenu}><User /> Login</a>
 		</div>
 	{/if}
