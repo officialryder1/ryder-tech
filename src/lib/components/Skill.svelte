@@ -1,9 +1,10 @@
 <script>
-	import { Mail, MapPin, User, Layers3 } from '@lucide/svelte';
+	import { Mail, MapPin, User, Layers3, Phone } from '@lucide/svelte';
     import { fade, fly } from 'svelte/transition';
 
 	let name = '';
 	let email = '';
+    let number = '';
 	let location = '';
 	let selectedSkill = '';
 	let submitted = false;
@@ -28,6 +29,7 @@
 			const formData = new FormData();
 			formData.append('name', name);
 			formData.append('email', email);
+            formData.append('number', number);
 			formData.append('location', location);
 			formData.append('skill', selectedSkill);
             loading = true;
@@ -45,6 +47,7 @@
 					submitted = true;
 					name = '';
 					email = '';
+                    number = '';
 					location = '';
 					selectedSkill = '';
 				} else {
@@ -102,6 +105,20 @@
 				<input
 					type="email"
 					bind:value={email}
+					class="bg-transparent flex-1 outline-none text-white placeholder:text-gray-400"
+					placeholder="Your email"
+				/>
+			</div>
+		</div>
+
+        <!-- Phone -->
+        <div class="form-control">
+			<label class="label text-sm font-semibold">Phone Number</label>
+			<div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-md">
+				<Phone class="w-5 h-5 text-green-400" />
+				<input
+					type="text"
+					bind:value={number}
 					class="bg-transparent flex-1 outline-none text-white placeholder:text-gray-400"
 					placeholder="Your email"
 				/>
