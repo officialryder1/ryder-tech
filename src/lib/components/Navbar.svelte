@@ -38,7 +38,7 @@
 
 	<!-- Desktop Menu -->
 	<ul class="hidden md:flex space-x-6 text-lg font-medium pr-5">
-		<li><a href="#blog" class="hover:text-green-400 uppercase ">blog</a></li>
+		<li><a href="../#blog" class="hover:text-green-400 uppercase ">blog</a></li>
 		<li><a href="../#service" class="hover:text-green-400 uppercase tracking-wide">Services</a></li>
 		<li><a href="../#about" class="hover:text-green-400 uppercase tracking-wide">About</a></li>
 		<li><a href="../#contact" class="hover:text-green-400 uppercase tracking-wide ">Contact</a></li>

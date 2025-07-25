@@ -1,5 +1,6 @@
 <script>
 	import { Mail, MapPin, User, Layers3 } from '@lucide/svelte';
+    import { fade, fly } from 'svelte/transition';
 
 	let name = '';
 	let email = '';
@@ -69,7 +70,7 @@
 	}
 </style>
 
-<section class="min-h-screen px-4 py-20 bg-gradient-to-br from-blue-900 via-purple-900 to-black text-white">
+<section class="min-h-screen px-4 py-20 bg-gradient-to-br from-blue-900 via-purple-900 to-black text-white" in:fade={{duration:700,}} out:fly={{ y: 100, duration: 300 }}>
 	<div class="max-w-3xl mx-auto text-center mb-12">
 		<h2 class="text-4xl sm:text-5xl font-bold leading-tight mb-4 text-green-300">Acquire a Digital Skill</h2>
 		<p class="text-gray-300 text-lg">Choose a skill to start your tech journey. We’ll follow up via email shortly after.</p>
