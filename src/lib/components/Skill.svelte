@@ -6,6 +6,7 @@
 	let location = '';
 	let selectedSkill = '';
 	let submitted = false;
+    let loading = false;
 
 	const skills = [
 		'Web Development',
@@ -28,6 +29,7 @@
 			formData.append('email', email);
 			formData.append('location', location);
 			formData.append('skill', selectedSkill);
+            loading = true;
 
 			try {
 				const res = await fetch('https://formspree.io/f/mzzvenwe', {
@@ -50,7 +52,9 @@
 			} catch (err) {
 				console.error(err);
 				alert('An error occurred.');
-			}
+			} finally {
+                loading = false;
+            }
 		} else {
 			alert('Please fill in all fields.');
 		}
@@ -135,7 +139,15 @@
 		</div>
 
 		<!-- Submit -->
-		<button type="submit" class="btn bg-green-500 w-full">Submit Application</button>
+
+        {#if loading}
+            <button class="btn bg-green-500 w-full" disabled>
+                <span class="loading loading-spinner loading-lg"></span>
+                Submitting...
+            </button>
+        {:else}
+		    <button type="submit" class="btn bg-green-500 w-full">Submit Application</button>
+        {/if}
 
 		{#if submitted}
 			<p class="text-green-400 font-medium text-center mt-4 animate-fade-in-up">🎉 Submission received! We'll reach out shortly.</p>
