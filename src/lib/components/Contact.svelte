@@ -2,6 +2,8 @@
 	import { goto } from '$app/navigation';
     import {Phone, MessageCircle, Mail, Instagram, X, Facebook, Twitter} from '@lucide/svelte';
 
+    const FORM_URL = import.meta.env.VITE_FORM_URL;
+
     let name = $state('')
     let email = $state('')
     let message = $state('')
@@ -13,7 +15,7 @@
         if (name && email && message) {
             loading = true;
             try {
-                const response = await fetch('https://formspree.io/f/mzzvenwe', {
+                const response = await fetch(FORMREE_URL, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'

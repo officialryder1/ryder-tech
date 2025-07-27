@@ -2,6 +2,8 @@
 	import { Mail, MapPin, User, Layers3, Phone, X } from '@lucide/svelte';
     import { fade, fly } from 'svelte/transition';
 
+    const FORMREE_URL = import.meta.env.VITE_FORM_URL;
+
 	let name = '';
 	let email = '';
     let number = '';
@@ -36,7 +38,7 @@
             loading = true;
 
 			try {
-				const res = await fetch('https://formspree.io/f/mzzvenwe', {
+				const res = await fetch(FORMREE_URL, {
 					method: 'POST',
 					body: formData,
 					headers: {
