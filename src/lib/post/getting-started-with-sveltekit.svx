@@ -1,0 +1,9 @@
+---
+title: "Getting Started with SvelteKit"
+date: "2025-07-28"
+description: "Learn how to build apps with SvelteKit and mdsvex."
+---
+
+## Welcome
+
+This is a markdown-based blog post. You can use MDX-style syntax here.

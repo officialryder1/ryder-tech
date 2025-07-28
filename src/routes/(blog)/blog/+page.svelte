@@ -1,16 +1,17 @@
 <script>
-    export let data;
-
-    console.log(data)
+  import * as Card from '$lib/components/ui/card/index.js';
+  let { data } = $props();    
+  console.log(data);
 </script>
 
-<section class="max-w-4xl mx-auto px-4 py-10">
-  <h1 class="text-4xl font-bold mb-6">Our Blog</h1>
+<h1 class="text-2xl font-bold mb-6">Latest Posts</h1>
+
+<div class="space-y-6">
   {#each data.posts as post}
-    <a href={post.path} class="block p-4 rounded-md bg-white/10 hover:bg-white/20 mb-4 transition">
-      <h2 class="text-2xl font-semibold">{post.title}</h2>
-      <p class="text-sm text-gray-400">{post.date}</p>
-      <p class="text-base mt-2">{post.description}</p>
+    <a href={post.path} class="block border p-4 rounded-lg hover:bg-accent transition">
+      <h2 class="text-xl font-semibold">{post.title}</h2>
+      <p class="text-sm text-muted-foreground">{post.date}</p>
+      <p class="mt-2 text-muted-foreground line-clamp-2">{post.description}</p>
     </a>
   {/each}
-</section>
+</div>
