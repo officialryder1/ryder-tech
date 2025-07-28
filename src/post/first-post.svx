@@ -1,0 +1,13 @@
+---
+title: "My First Post"
+date: "2025-07-28"
+description: "Introduction to our blog using MDsvex"
+---
+
+<script>
+  import { LucideFlame } from '@lucide/svelte'; // example icon
+</script>
+
+<h1><LucideFlame size={24} /> Welcome to the Blog</h1>
+
+<p>This is the content of the blog post written in Markdown, enhanced with Svelte components and interactivity.</p>
