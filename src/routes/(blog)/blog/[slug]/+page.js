@@ -1,10 +1,9 @@
+import { error } from '@sveltejs/kit';
+
 export const load = async ({params}) => {
     const modules = import.meta.glob('$lib/post/*.svx');
-    if (!params.slug) {
-        return {
-            status: 404,
-            error: new Error('Post not found')
-        };
+    if (!modules) {
+        error(404, 'No modules found');
     }
 
 	for (const [path, resolver] of Object.entries(modules)) {

@@ -1,56 +1,60 @@
 ---
-title: "My First Post"
+title: "What RyderTech About"
 date: "2025-07-28"
-description: "Introduction to our blog using MDsvex"
-content: "full blog content"
+description: "Introduction to what RyderTech offers"
 image: "https://plus.unsplash.com/premium_photo-1661339265887-be15949790ff?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmxvZ3xlbnwwfHwwfHx8MA%3D%3D"
 author: "Ryder"
-tags: ["SvelteKit", "DaisyUI", "MDsvex"]
+tags: ["Startup", "Brand", "Business"]
 ---
 
 <script>
-  import { LucideFlame } from '@lucide/svelte'; // example icon
+
+  import {Phone} from "@lucide/svelte"
 </script>
 
-<h3><LucideFlame size={24} /> Welcome to the Blog</h3>
+## 🚀 Welcome to RyderTech
 
-<p class="pb-5">This is the content of the blog post written in Markdown, enhanced with Svelte components and interactivity.</p>
+At **RyderTech**, we are more than just a tech startup — we are a creative force committed to building powerful solutions that help brands grow, scale, and dominate their niche.
 
-** What are we going to learn in this post? **
+Whether you're a small business trying to stand out or an enterprise aiming for digital transformation, RyderTech is your trusted partner.
 
-1. What RyderTech is about
-2. How we help brand scale
-3. How MDsvex works
-4. Should you use markdown?
+---
 
-- First item
-- Second item
-- Third item
-- Fourth item
+## 🛠️ What We Offer
 
-hello
-===============
+### 1. Custom Web Development
+We build fast, secure, and scalable web applications tailored to your business goals. From portfolio websites to robust platforms, our development team delivers with precision.
 
-I just love **bold text**.
+### 2. Brand Strategy & Design
+Our creative team helps you shape a powerful identity. We align your visual assets and messaging to ensure your brand connects emotionally and visually with your audience.
 
-Italicized text is the *cat's meow*.
+### 3. Technical Consulting
+Got an idea? We guide you from concept to execution with strategic tech insights. We simplify tech stacks, optimize workflows, and help you make smarter digital investments.
 
-This text is ***really important***.
+---
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
+## 🌍 Why RyderTech?
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+- 🔹 Passion-Driven Team
+- 🔹 Clean, maintainable code
+- 🔹 Emphasis on performance and UX
+- 🔹 Commitment to your business success
 
+> _“We don't just build for clients. We build with clients.”_
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
->> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+---
 
-> #### The quarterly results look great!
->
-> - Revenue was off the chart.
-> - Profits were higher than ever.
->
->  *Everything* is going according to **plan**
+## 💡 Our Vision
+
+We envision a future where startups and businesses — especially in Africa — can access world-class tech solutions without breaking the bank. We’re building tools, platforms, and systems that empower the next generation of digital entrepreneurs.
+
+---
+
+<h2 class="flex gap-3"><Phone color="red"/> Get in Touch</h2>
+
+Interested in working with us? [Reach out today](mailto:officialvictor07@gmail.com) and let’s talk about how RyderTech can power your next idea.
+
+---
+
+**RyderTech** — _Where ideas become digital impact._
+
