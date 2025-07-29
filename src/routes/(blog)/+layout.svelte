@@ -1,5 +1,6 @@
 <script>
 	import { Home, BookOpen, Rss, LayoutDashboard, Menu } from '@lucide/svelte';
+	import Card from '$lib/components/blog/card.svelte';
 	import { toggleMode } from 'mode-watcher';
 	import SunIcon from '@lucide/svelte/icons/sun';
 	import MoonIcon from '@lucide/svelte/icons/moon';
@@ -47,12 +48,15 @@
 		</div>
 
 		<!-- Main content slot -->
-		{@render children()}
+		<div class="flex flex-col">
+			{@render children()}
+		</div>
+		
 	</div>
 
 	<div class="drawer-side">
 		<label for="sidebar-toggle" class="drawer-overlay"></label>
-		<aside class="w-64 bg-base-200 p-4">
+		<aside class="w-64 bg-base-200 p-4 min-h-full">
 			<h2 class="text-xl font-bold mb-6">RyderTech Blog</h2>
 
 			<nav class="space-y-2">
