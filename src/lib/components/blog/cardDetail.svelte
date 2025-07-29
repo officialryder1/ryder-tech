@@ -1,4 +1,5 @@
 <script>
+    import { fade } from "svelte/transition";
 	let { title, image, date, description, tags, author, children } = $props()
 </script>
 
@@ -7,7 +8,7 @@
 	<meta name="description" content={description || ''} />
 </svelte:head>
 
-<article class="max-w-3xl mx-auto px-4 py-10 prose prose-sm sm:prose-base lg:prose-lg prose-headings:text-white">
+<article class="max-w-3xl mx-auto px-4 py-10 prose prose-sm sm:prose-base lg:prose-lg prose-headings:text-white" transition:fade={{ duration: 300 }}>
 	<!-- Header Image -->
 	{#if image}
 		<img src={image} alt={title} class="w-full rounded-lg mb-8 object-cover h-72 sm:h-96" />

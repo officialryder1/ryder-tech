@@ -1,9 +1,7 @@
 <script>
+	import { fade } from 'svelte/transition';
 	import { Home, BookOpen, Rss, LayoutDashboard, Menu } from '@lucide/svelte';
 	import Card from '$lib/components/blog/card.svelte';
-	import { toggleMode } from 'mode-watcher';
-	import SunIcon from '@lucide/svelte/icons/sun';
-	import MoonIcon from '@lucide/svelte/icons/moon';
 	import { page } from '$app/stores';
 	import '../../app.css'
 
@@ -38,17 +36,8 @@
 			</label>
 		</div>
 
-		<!-- Theme Toggle -->
-		<div class="flex justify-end mb-4">
-			<button class="btn btn-outline btn-circle" onclick={toggleMode}>
-				<SunIcon class="h-5 w-5 rotate-0 scale-100 dark:-rotate-90 dark:scale-0 transition-all" />
-				<MoonIcon class="absolute h-5 w-5 rotate-90 scale-0 dark:rotate-0 dark:scale-100 transition-all" />
-				<span class="sr-only">Toggle Theme</span>
-			</button>
-		</div>
-
 		<!-- Main content slot -->
-		<div class="flex flex-col">
+		<div class="flex flex-col" transition:fade={{ duration: 300 }}>
 			{@render children()}
 		</div>
 		
