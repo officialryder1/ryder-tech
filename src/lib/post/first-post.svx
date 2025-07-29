@@ -16,5 +16,41 @@ tags: ["SvelteKit", "DaisyUI", "MDsvex"]
 
 <p class="pb-5">This is the content of the blog post written in Markdown, enhanced with Svelte components and interactivity.</p>
 
+** What are we going to learn in this post? **
+
+1. What RyderTech is about
+2. How we help brand scale
+3. How MDsvex works
+4. Should you use markdown?
+
+- First item
+- Second item
+- Third item
+- Fourth item
+
+hello
+===============
+
+I just love **bold text**.
+
+Italicized text is the *cat's meow*.
+
+This text is ***really important***.
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 
 
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+>> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+
+> #### The quarterly results look great!
+>
+> - Revenue was off the chart.
+> - Profits were higher than ever.
+>
+>  *Everything* is going according to **plan**
