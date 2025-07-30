@@ -10,8 +10,8 @@
 	const links = [
 		{ href: '/', name: 'Home', icon: Home },
 		{ href: '/blog', name: 'Blog', icon: BookOpen },
-		{ href: '/about', name: 'About', icon: Rss },
-		{ href: '/dashboard', name: 'Dashboard', icon: LayoutDashboard }
+		{ href: '../#about', name: 'About', icon: Rss },
+		{ href: '/', name: 'Dashboard', icon: LayoutDashboard }
 	];
 
 	const posts = data?.posts;
