@@ -7,6 +7,9 @@
     import Contact from "$lib/components/Contact.svelte";
     import Service from "$lib/components/Service.svelte"
 
+    let { data } = $props();
+    console.log(data.posts);
+
 </script>
 
 <Hero/>
@@ -14,6 +17,6 @@
 <Service />
 <OurWork />
 <Testimonial />
-<BlogSection />
+<BlogSection posts={data.posts}/>
 <Contact />
     

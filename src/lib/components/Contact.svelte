@@ -115,7 +115,7 @@
                         Sending...
                     </button>
                 {:else}
-				    <button type="submit" class="btn bg-green-500 w-full">Send Message</button>
+				    <button type="submit" class="btn bg-green-500 w-full hover:bg-green-600 duration-300 transition-colors">Send Message</button>
                 {/if}
 			</form>
 		</div>

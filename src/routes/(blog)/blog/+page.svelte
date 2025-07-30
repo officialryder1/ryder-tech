@@ -13,14 +13,16 @@
 </svelte:head>
 <h1 class="text-2xl font-bold mb-6 ">Latest Posts</h1>
 
-<div class="mx-auto grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 gap-6">
+<div class="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-6">
 	{#each data.posts as post}
 		<!-- You can also extract this to a component -->
 		<a href={post.path}>
 			<Card title={post.title} 
             description={post.description} 
             date={post.date} 
-            image={post.image || 'https://via.placeholder.com/150'} />
+            image={post.image || 'https://via.placeholder.com/150'} 
+            author ={post.author}
+            tags = {post.tags}/>
 		</a>
 	{/each}
 </div>
