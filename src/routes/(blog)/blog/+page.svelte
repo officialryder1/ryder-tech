@@ -1,7 +1,7 @@
 <script>
   import Card from '$lib/components/blog/card.svelte';
   let { data } = $props();    
-  console.log(data);
+ 
 </script>
 <svelte:head>
   <title>Blog - Web Design & Development</title>

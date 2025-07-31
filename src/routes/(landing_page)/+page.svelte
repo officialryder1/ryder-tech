@@ -8,7 +8,7 @@
     import Service from "$lib/components/Service.svelte"
 
     let { data } = $props();
-    console.log(data.posts);
+    
 
 </script>
 
