@@ -48,17 +48,17 @@
         <div class="absolute bottom-5 left-0 w-full  overflow-hidden">
            
             <div class="whitespace-nowrap animate-scroll flex gap-10 items-center px-6">
-            <img loading="lazy" src="/logos/google.svg" alt="Google" class="h-8 grayscale hover:grayscale-0 transition" />
-            <img loading="lazy" src="/logos/meta.svg" alt="Meta" class="h-8 grayscale hover:grayscale-0 transition" />
-            <img loading="lazy" src="/logos/shopify.svg" alt="Shopify" class="h-8 grayscale hover:grayscale-0 transition" />
-            <img loading="lazy" src="/logos/netflix.svg" alt="Netflix" class="h-8 grayscale hover:grayscale-0 transition" />
-            <img loading="lazy" src="/logos/tesla.svg" alt="Tesla" class="h-8 grayscale hover:grayscale-0 transition" />
+            <img src="/logos/google.svg" alt="Google" class="h-8 grayscale hover:grayscale-0 transition" />
+            <img src="/logos/meta.svg" alt="Meta" class="h-8 grayscale hover:grayscale-0 transition" />
+            <img src="/logos/shopify.svg" alt="Shopify" class="h-8 grayscale hover:grayscale-0 transition" />
+            <img src="/logos/netflix.svg" alt="Netflix" class="h-8 grayscale hover:grayscale-0 transition" />
+            <img src="/logos/tesla.svg" alt="Tesla" class="h-8 grayscale hover:grayscale-0 transition" />
             <!-- Repeat logos if needed for continuous scroll -->
-            <img loading="lazy" src="/logos/google.svg" alt="Google" class="h-8 grayscale hover:grayscale-0 transition" />
-            <img loading="lazy" src="/logos/meta.svg" alt="Meta" class="h-8 grayscale hover:grayscale-0 transition" />
-            <img loading="lazy" src="/logos/shopify.svg" alt="Shopify" class="h-8 grayscale hover:grayscale-0 transition" />
-            <img loading="lazy" src="/logos/netflix.svg" alt="Netflix" class="h-8 grayscale hover:grayscale-0 transition" />
-            <img loading="lazy" src="/logos/tesla.svg" alt="Tesla" class="h-8 grayscale hover:grayscale-0 transition" />
+            <img src="/logos/google.svg" alt="Google" class="h-8 grayscale hover:grayscale-0 transition" />
+            <img src="/logos/meta.svg" alt="Meta" class="h-8 grayscale hover:grayscale-0 transition" />
+            <img src="/logos/shopify.svg" alt="Shopify" class="h-8 grayscale hover:grayscale-0 transition" />
+            <img src="/logos/netflix.svg" alt="Netflix" class="h-8 grayscale hover:grayscale-0 transition" />
+            <img src="/logos/tesla.svg" alt="Tesla" class="h-8 grayscale hover:grayscale-0 transition" />
             </div>
         </div>
 	</div>
