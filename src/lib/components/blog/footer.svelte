@@ -28,7 +28,7 @@
 		<div>
 			<h3 class="font-semibold mb-2">Services</h3>
 			<ul class="space-y-1 text-sm">
-				<li><a href="/services/web" class="hover:underline">Web Development</a></li>
+				<li><a href="../#service" class="hover:underline">Web Development</a></li>
 				<li><a href="../#service" class="hover:underline">Branding</a></li>
 				<li><a href="../#services" class="hover:underline">SEO</a></li>
 				<li><a href="/skill" class="hover:underline">Content Creation</a></li>
