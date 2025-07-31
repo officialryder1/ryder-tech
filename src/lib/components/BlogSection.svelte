@@ -6,7 +6,7 @@
 	<title>Blog - RyderTech</title>
 	<meta name="description" content="Explore our latest blog posts on design, e-commerce, SEO, and more. Stay updated with insights from RyderTech.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 </svelte:head>
 
 <section class="py-20 bg-base-100 text-base-content" id="blog">
@@ -20,7 +20,7 @@
 		<!-- Blog Grid -->
 		<div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
 			{#each posts as post}
-				<a href="blog/{post.title}" class="group rounded-xl overflow-hidden shadow-lg bg-base-200 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-accent-content">
+				<a href="{post.path}" class="group rounded-xl overflow-hidden shadow-lg bg-base-200 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-accent-content">
 					<img src={post.image} alt={post.title} class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
 					<div class="p-5">
 						<h3 class="text-xl font-bold group-hover:text-info">{post.title}</h3>
