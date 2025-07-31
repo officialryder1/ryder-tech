@@ -3,7 +3,7 @@
   
   let { data } = $props();
   let post = $state(data.post.metadata)
-  console.log(post);
+
 
   
 
