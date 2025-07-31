@@ -73,7 +73,7 @@
       </div>
       <!-- CTA Button -->
       <div class="mt-12">
-        <a href="/contact" class="btn bg-green-500 btn-wide text-lg animate-pulse hover:scale-105 transition-transform duration-300 float-end">
+        <a href="/#contact" class="btn bg-green-500 btn-wide text-lg animate-pulse hover:scale-105 transition-transform duration-300 float-end">
           Book a Free Section
         </a>
       </div>
