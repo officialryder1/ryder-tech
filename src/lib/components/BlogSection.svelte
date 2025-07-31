@@ -6,7 +6,7 @@
 	<title>Blog - RyderTech</title>
 	<meta name="description" content="Explore our latest blog posts on design, e-commerce, SEO, and more. Stay updated with insights from RyderTech.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="/favicon.ico">
+	
 </svelte:head>
 
 <section class="py-20 bg-base-100 text-base-content" id="blog">

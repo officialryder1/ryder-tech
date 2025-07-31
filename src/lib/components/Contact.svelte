@@ -53,7 +53,6 @@
     <title>Contact - RyderTech</title>
     <meta name="description" content="Get in touch with RyderTech for web design, development, and digital marketing services.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="/favicon.ico">
 </svelte:head>
 
 <section class="min-h-screen bg-base-100 text-base-content px-6 py-20" id="contact">

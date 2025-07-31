@@ -48,7 +48,7 @@
 	<title>Testimonials - RyderTech</title>
 	<meta name="description" content="See what our clients say about our web design and development services.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="/favicon.ico">
+
 </svelte:head>
 
 <section class="py-20 bg-base-200 text-white relative overflow-hidden">
