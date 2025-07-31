@@ -1,0 +1,13 @@
+---
+title: "How Branding Helps"
+date: "2025-07-28"
+description: "Discover the secret to how branding help to grow business."
+content: "full blog content"
+image: "/blog/branding.jpg"
+author: "Ryder"
+tags: ["Branding", "Business", "Growth"]
+---
+
+## Welcome
+
+This is a markdown-based blog post. You can use MDX-style syntax here.
