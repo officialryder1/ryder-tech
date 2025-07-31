@@ -1,4 +1,5 @@
 <script>
+	import Footer from '$lib/components/blog/footer.svelte';
 	import { fade } from 'svelte/transition';
 	import { Home, BookOpen, Rss, LayoutDashboard, Menu } from '@lucide/svelte';
 
@@ -23,7 +24,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </svelte:head>
 
 <div class="drawer lg:drawer-open min-h-screen bg-base-100 text-base-content">
@@ -74,10 +75,11 @@
 		</aside>
 	</div>
 </div>
+<Footer />
 
 <style>
 	:global(body) {
-		font-family: "Roboto", sans-serif;
+		font-family: "Montserra", sans-serif;
 		font-optical-sizing: auto;
   		font-weight: 300;
   		font-style: normal;
