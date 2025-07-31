@@ -1,7 +1,7 @@
 <script>
 	import { fade } from 'svelte/transition';
 	import { Home, BookOpen, Rss, LayoutDashboard, Menu } from '@lucide/svelte';
-	import Card from '$lib/components/blog/card.svelte';
+
 	import { page } from '$app/stores';
 	import '../../app.css'
 
