@@ -10,4 +10,4 @@ tags: ["Branding", "Business", "Growth"]
 
 ## Welcome
 
-This is a markdown-based blog post. You can use MDX-style syntax here.
+

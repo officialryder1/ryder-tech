@@ -1,9 +1,26 @@
 <script>
+    import { page } from "$app/state";
     import { fade } from "svelte/transition";
-	let { title, image, date, description, tags, author, children } = $props()
+    import { onMount, onDestroy } from "svelte";
+    import SharePost from "./sharePost.svelte";
+	let { title, image, date, description, tags, author, children, url } = $props()
     
     const formattedDate = new Date(date).toISOString(); // ISO format for structured data
 	const displayDate = new Date(date).toLocaleDateString(); // For visible date
+
+    
+    let path= $state('');
+    
+    onMount(() => {
+        path = `https://rydertech.pages.dev/blog/${url}`
+    })
+
+    onDestroy(() => {
+        // Cleanup if needed   
+        path = '';
+        }
+    )
+
 </script>
 
 <svelte:head>
@@ -59,6 +76,7 @@
 			{/if}
 			<span>📅 {new Date(date).toLocaleDateString()}</span>
 		</div>
+        <SharePost [title] {url}/>
         {#if image}
             <img src={image} alt={title} class="w-full rounded-lg mb-8 object-cover h-72 sm:h-96" />
         {/if}

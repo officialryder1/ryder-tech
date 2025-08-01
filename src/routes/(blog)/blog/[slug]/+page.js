@@ -13,7 +13,8 @@ export const load = async ({params}) => {
 			const post = await resolver();
             
 			return {
-				post
+				post,
+				slug
 			};
 		}
     }
