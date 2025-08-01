@@ -49,12 +49,6 @@
     }
 </script>
 
-<svelte:head>
-    <title>Contact - RyderTech</title>
-    <meta name="description" content="Get in touch with RyderTech for web design, development, and digital marketing services.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</svelte:head>
-
 <section class="min-h-screen bg-base-100 text-base-content px-6 py-20" id="contact">
 	<div class="max-w-6xl mx-auto">
 		<h2 class="text-4xl font-bold text-center mb-4 text-green-400 shadow-lg shadow-accent-content">Get in Touch</h2>

@@ -44,12 +44,6 @@
     });
 </script>
 
-<svelte:head>
-	<title>Testimonials - RyderTech</title>
-	<meta name="description" content="See what our clients say about our web design and development services.">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-</svelte:head>
 
 <section class="py-20 bg-base-200  relative overflow-hidden">
 	<div class="max-w-5xl mx-auto px-4 text-center">

@@ -42,12 +42,6 @@
    
 </script>
 
-<svelte:head>
-	<title>Our Work - RyderTech</title>
-	<meta name="description" content="Explore our portfolio of web design and development projects. See how we can help elevate your brand online.">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-</svelte:head>
 
 <section class="py-20 bg-base-100 text-base-content">
 	<div class="max-w-6xl mx-auto px-4">

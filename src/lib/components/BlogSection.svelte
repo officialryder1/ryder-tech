@@ -2,13 +2,6 @@
 	const { posts} = $props();
 </script>
 
-<svelte:head>
-	<title>Blog - RyderTech</title>
-	<meta name="description" content="Explore our latest blog posts on design, e-commerce, SEO, and more. Stay updated with insights from RyderTech.">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-</svelte:head>
-
 <section class="py-20 bg-base-100 text-base-content" id="blog">
 	<div class="max-w-6xl mx-auto px-4">
 		<!-- Section Title -->

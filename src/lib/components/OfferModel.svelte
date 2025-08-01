@@ -36,7 +36,7 @@
 
 <!-- Trigger Button -->
 <div class="text-center">
-  <button class="btn bg-green-500 hover:scale-105 transition-transform duration-300 sm:text-sm md:text-sm text-[0.7rem]" on:click={() => (showOffers = !showOffers)}>
+  <button class="btn bg-green-500 hover:scale-105 transition-transform duration-300 sm:text-sm md:text-sm text-[0.7rem]" onclick={() => (showOffers = !showOffers)}>
     Explore Our Services <ArrowBigRight class="w-5 h-5" />
   </button>
 </div>
@@ -46,7 +46,7 @@
   <div class="fixed inset-0 bg-black/60 z-50 flex items-center justify-center ">
     <div class="bg-white dark:bg-gray-900 text-gray-800 dark:text-white w-full max-w-5xl mx-4 p-8 rounded-lg shadow-lg relative animate-fade-in-up overflow-y-auto max-h-[90vh] mt-10">
       <!-- Close Button -->
-      <button class="absolute top-4 right-4 text-gray-200 hover:text-red-600" on:click={() => (showOffers = false)}>
+      <button class="absolute top-4 right-4 text-gray-200 hover:text-red-600" onclick={() => (showOffers = false)}>
         <X class="w-6 h-6" />
       </button>
 
