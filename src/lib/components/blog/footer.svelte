@@ -38,7 +38,7 @@
 		<!-- Contact & Social -->
 		<div>
 			<h3 class="font-semibold mb-2">Connect</h3>
-			<p class="flex items-center gap-2 text-sm mb-2"><Mail size={16} /> officialvictor07.gmail.com</p>
+			<p class="flex items-center gap-2 text-sm mb-2"><Mail size={16} /> officialvictor07@gmail.com</p>
 			<div class="flex gap-3 mt-4">
 				<a href="https://facebook.com" target="_blank" rel="noopener"><Facebook size={18} /></a>
 				<a href="https://twitter.com" target="_blank" rel="noopener"><Twitter size={18} /></a>
