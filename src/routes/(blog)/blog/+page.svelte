@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </svelte:head>
-<h1 class="text-3xl prose-xl prose mt-5 font-bold mb-6 font-sans">Latest Posts</h1>
+<h1 class="text-3xl prose-xl prose mt-5 font-bold mb-6 font-sans dark:text-black">Latest Posts</h1>
 
 <div class="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-6">
 	{#each data.posts as post}
