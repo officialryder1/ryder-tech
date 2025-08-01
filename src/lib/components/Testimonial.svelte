@@ -51,7 +51,7 @@
 
 </svelte:head>
 
-<section class="py-20 bg-base-200 text-white relative overflow-hidden">
+<section class="py-20 bg-base-200  relative overflow-hidden">
 	<div class="max-w-5xl mx-auto px-4 text-center">
 		<h2 class="text-4xl font-bold mb-10 text-green-400 tracking-tighter sm:tracking-tighter md:tracking-tighter shadow-primary shadow-2xl">What Our Clients Love About Our Work</h2>
 
@@ -62,9 +62,9 @@
 					class="absolute top-0 left-0 w-full transition-opacity duration-700 ease-in-out flex flex-col items-center px-6 md:px-12"
 					style="opacity: {current === i ? 1 : 0}; transform: translateY({current === i ? '0' : '20px'});">
 					<img src={t.image} alt={t.name} class="w-24 h-24 rounded-full shadow-lg mb-4 border-4 border-green-400" />
-					<p class="text-lg italic max-w-xl text-gray-300">"{t.quote}"</p>
+					<p class="text-lg italic max-w-xl">"{t.quote}"</p>
 					<h3 class="mt-4 text-xl font-semibold text-green-300">{t.name}</h3>
-					<p class="text-sm text-gray-300">{t.role}</p>
+					<p class="text-s">{t.role}</p>
                     
 				</div>
 			{/each}
