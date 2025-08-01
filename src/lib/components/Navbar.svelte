@@ -10,7 +10,7 @@
 	}
 </script>
 
-<nav class="fixed z-50 w-full px-4 py-3 flex justify-between items-center text-white bg-base-100/70 sm:bg-base-300/70 shadow-lg transition-all duration-300 ease-in-out">
+<nav class="fixed z-50 w-full px-4 py-3 flex justify-between items-center bg-base-100/70 sm:bg-base-300/70 shadow-lg transition-all duration-300 ease-in-out">
 	<!-- Brand -->
 	<a href="/"><div class="text-3xl font-extrabold tracking-wide pr-5 sm:text-2xl md:text-2xl sm:font-bold md:font-bold">RyderTech.</div></a>
    <ThemeToggler class="hidden sm:block" />
