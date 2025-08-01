@@ -2,6 +2,7 @@
 	import Footer from '$lib/components/blog/footer.svelte';
 	import { fade } from 'svelte/transition';
 	import { Home, BookOpen, Rss, LayoutDashboard, Menu } from '@lucide/svelte';
+	import ThemeToggle from '$lib/components/ThemeToggler.svelte';
 
 	import { page } from '$app/stores';
 	import '../../app.css'
@@ -29,10 +30,14 @@
 	<input id="sidebar-toggle" type="checkbox" class="drawer-toggle" />
 	<div class="drawer-content flex flex-col p-6">
 		<!-- Mobile navbar toggle -->
-		<div class="lg:hidden mb-4">
+		<div class="lg:hidden ">
 			<label for="sidebar-toggle" class="btn btn-outline btn-sm btn-circle">
 				<Menu />
+				
 			</label>
+		</div>
+		<div class="flex justify-end">
+			<ThemeToggle/>
 		</div>
 
 		<!-- Main content slot -->
