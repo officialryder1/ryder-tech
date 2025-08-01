@@ -1,6 +1,8 @@
 <script>
     import {fade, fly} from 'svelte/transition';
     import { User } from '@lucide/svelte';
+
+	import ThemeToggler from './ThemeToggler.svelte';
 	let isOpen = false;
 
 	function toggleMenu() {
@@ -11,7 +13,7 @@
 <nav class="fixed z-50 w-full px-4 py-3 flex justify-between items-center text-white bg-base-100/70 sm:bg-base-300/70 shadow-lg transition-all duration-300 ease-in-out">
 	<!-- Brand -->
 	<a href="/"><div class="text-3xl font-extrabold tracking-wide pr-5 sm:text-2xl md:text-2xl sm:font-bold md:font-bold">RyderTech.</div></a>
-   
+   <ThemeToggler class="hidden sm:block" />
 	<!-- Hamburger Button -->
 	<button
 		class="md:hidden flex flex-col justify-center items-center w-10 h-10 z-50"
