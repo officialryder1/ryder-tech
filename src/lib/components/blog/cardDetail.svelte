@@ -65,7 +65,7 @@
 
 </svelte:head>
 
-<article class="max-w-3xl mx-auto px-4 py-10 prose prose-sm sm:prose-base lg:prose-lg prose-headings:text-white" transition:fade={{ duration: 300 }}>
+<article class="max-w-3xl mx-auto px-4 py-10 prose prose-sm sm:prose-base lg:prose-lg" transition:fade={{ duration: 300 }}>
 	<!-- Header Image -->
 	<!-- Title and Meta -->
 	<header class="mb-6">
