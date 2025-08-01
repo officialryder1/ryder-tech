@@ -45,7 +45,7 @@
       <p class="text-sm text-base-content/70 mb-4">
         Got a business idea or want to work together? Let’s talk.
       </p>
-      <a href="/contact" class="btn btn-accent btn-sm">Get in Touch</a>
+      <a href="../#contact" class="btn btn-accent btn-sm">Get in Touch</a>
     </div>
 
     <!-- Option 4: Volunteer -->
