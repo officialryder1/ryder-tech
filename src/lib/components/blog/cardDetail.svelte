@@ -78,7 +78,7 @@
 		</div>
         <SharePost [title] {url}/>
         {#if image}
-            <img src={image} alt={title} class="w-full rounded-lg mb-8 object-cover h-72 sm:h-96" />
+            <img src={image} alt={title} class="w-full rounded-lg mb-8 object-cover h-72 sm:h-96" loading="lazy"/>
         {/if}
 		<p class="text-base-content/70 mb-1">{description}</p>
 	</header>
