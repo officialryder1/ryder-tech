@@ -50,7 +50,7 @@
 	<div class="drawer-side">
 		<label for="sidebar-toggle" class="drawer-overlay"></label>
 		<aside class="w-64 bg-base-200 p-4 min-h-full">
-			<h2 class="text-xl font-bold mb-6">RyderTech Blog</h2>
+			<h2 class="text-xl font-bold mb-6 flex gap-3"><img src="/logos/rydertech.jpg" alt="logo" class="h-[50px] rounded-b-full rounded-bl-xl"/>Blog</h2>
 
 			<nav class="space-y-2">
 				{#each links as { name, href, icon: Icon }}

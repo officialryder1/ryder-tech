@@ -8,6 +8,4 @@ author: "Ryder"
 tags: ["Branding", "Business", "Growth"]
 ---
 
-## Welcome
-
 
