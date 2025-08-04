@@ -23,7 +23,7 @@
       <p class="text-sm text-base-content/70 mb-4">
         Every contribution helps us grow our tools, improve support, and reach more businesses.
       </p>
-      <a href="https://buymeacoffee.com/rydertech" target="_blank" class="btn btn-primary btn-sm">
+      <a href="https://paystack.shop/pay/rydertech" target="_blank" class="btn btn-primary btn-sm">
         Donate Now
       </a>
     </div>
