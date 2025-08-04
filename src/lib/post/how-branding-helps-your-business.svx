@@ -2,7 +2,7 @@
 title: "How Branding Helps Your Business"
 date: "2025-07-28"
 description: "Discover the secret to how branding helps to grow business."
-image: "/blog/branding.jpg"
+image: "/blog/branding.webp"
 author: "Ryder"
 tags: ["Branding", "Business", "Growth"]
 ---

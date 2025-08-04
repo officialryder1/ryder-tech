@@ -8,25 +8,25 @@
         {
 			title: 'RyderX',
 			category: 'Fintech',
-			image: '/projects/ryderx.png',
+			image: '/projects/ryderx.webp',
 			description: 'A seamless digital payment solution for modern businesses.',
 		},
 		{
 			title: 'CoupleQuest',
 			category: 'SaaS',
-			image: '/projects/dashboard2.png',
+			image: '/projects/dashboard2.webp',
 			description: 'An immersive shopping platform with user-friendly checkout.',
 		},
 		{
 			title: 'Sogca',
 			category: 'Agency',
-			image: '/projects/sogca.png',
+			image: '/projects/sogca.webp',
 			description: 'Smart hiring and team management for tech companies.',
 		},
 		{
 			title: 'Glow Agency',
 			category: 'Agency',
-			image: '/projects/ryderx.png',
+			image: '/projects/ryderx.webp',
 			description: 'A brand-forward agency portfolio site with animations.',
 		}
     ]
