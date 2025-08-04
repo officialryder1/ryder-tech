@@ -8,9 +8,6 @@
   <title>Blog - Web Design & Development</title>
   <meta name="description" content="RyderTech is a leading web design and development agency specializing in creating stunning, user-friendly websites that drive results.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </svelte:head>
 <h1 class="text-3xl prose-xl prose mt-5 font-bold mb-6 font-sans dark:">Latest Posts</h1>
 

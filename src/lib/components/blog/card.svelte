@@ -14,7 +14,7 @@
     <div class="card-image">
         <!-- svelte-ignore a11y_mi  sing_attribute -->
         <figure class="h-35 overflow-hidden">
-            <img src={image} alt={title} class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+            <img src={image} alt={title} class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" fetchpriority="high">
         </figure>
     </div>
     <div class="category text-green-400 tracking-tight mb-5 mt-2"> {title} </div>
