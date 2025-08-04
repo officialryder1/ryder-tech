@@ -59,7 +59,7 @@
 						<span>{name}</span>
 					</a>
 					{/each}
-					<a href="/post-a-job" class="btn btn-accent w-full font-bold"><Coins />Post a job</a>
+					<a href="/post-a-job" class="btn btn-accent w-full font-bold"><Coins />Post a job for 1$</a>
 			</nav>
 
 			{#if $page.url.pathname.startsWith('/blog')}
