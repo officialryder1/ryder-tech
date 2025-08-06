@@ -17,7 +17,6 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Blog - Web Design & Development">
   <meta name="twitter:description" content="RyderTech is a leading web design and development agency specializing in creating stunning, user-friendly websites that drive results.">
-  <meta name="twitter:image" content="https://rydertech.com/blog/og-image.jpg">
  
 </svelte:head>
 <h1 class="text-3xl prose-xl prose mt-5 font-bold mb-6 font-sans dark:">Latest Posts</h1>
