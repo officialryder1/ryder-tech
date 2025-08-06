@@ -20,6 +20,22 @@
   );
 </script>
 
+<svelte:head>
+  <title>{post.title} - RyderTech Blog</title>
+  <meta name="description" content={post.description}>
+  <meta property="og:title" content={post.title}>
+  <meta property="og:description" content={post.description}>
+  <meta property="og:image" content={post.image || 'https://via.placeholder.com/150'}>
+  <meta property="og:url" content={url}>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content={post.title}>
+  <meta name="twitter:description" content={post.description}>
+  <meta name="twitter:image" content={post.image || 'https://via.placeholder.com/150'}>
+  <link rel="canonical" href={url}>
+  <link rel="alternate" type="application/rss+xml" href="/blog/feed.xml" title="RyderTech Blog RSS Feed">
+  <link rel="alternate" type="application/atom+xml" href="/blog/feed.atom" title="RyderTech Blog Atom Feed">
+</svelte:head>
+
 <CardDetail title={post.title} description={post.description} image={post.image} date={data.post.metadata.date} author={post.author} tags={post.tag} {url}>
   <!-- Markdown Content -->
 	<section class="blog-content">

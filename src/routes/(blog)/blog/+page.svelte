@@ -8,6 +8,17 @@
   <title>Blog - Web Design & Development</title>
   <meta name="description" content="RyderTech is a leading web design and development agency specializing in creating stunning, user-friendly websites that drive results.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://rydertech.com/blog" />
+  <meta property="og:title" content="Blog - Web Design & Development">
+  <meta property="og:description" content="RyderTech is a leading web design and development agency specializing in creating stunning, user-friendly websites that drive results.">
+  <meta property="og:image" content="https://rydertech.com/blog/og-image.jpg">
+  <meta property="og:url" content="https://rydertech.com/blog">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Blog - Web Design & Development">
+  <meta name="twitter:description" content="RyderTech is a leading web design and development agency specializing in creating stunning, user-friendly websites that drive results.">
+  <meta name="twitter:image" content="https://rydertech.com/blog/og-image.jpg">
+ 
 </svelte:head>
 <h1 class="text-3xl prose-xl prose mt-5 font-bold mb-6 font-sans dark:">Latest Posts</h1>
 
