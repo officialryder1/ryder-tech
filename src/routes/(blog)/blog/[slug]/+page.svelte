@@ -33,7 +33,7 @@
   <meta name="twitter:image" content={post.image || 'https://via.placeholder.com/150'}>
   <link rel="canonical" href={url}>
   <link rel="alternate" type="application/rss+xml" href="https://rydertech.pages.dev/sitemap.xml" title="RyderTech Blog RSS Feed">
-  <link rel="alternate" type="application/atom+xml" href="/blog/feed.atom" title="RyderTech Blog Atom Feed">
+  <link rel="alternate" type="application/rss+xml" href="https://rydertech.pages.dev/sitemap.xml" title="RyderTech Blog RSS Feed">
 </svelte:head>
 
 <CardDetail title={post.title} description={post.description} image={post.image} date={data.post.metadata.date} author={post.author} tags={post.tag} {url}>

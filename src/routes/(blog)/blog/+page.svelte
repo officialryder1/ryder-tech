@@ -11,7 +11,6 @@
   <link rel="canonical" href="https://rydertech.com/blog" />
   <meta property="og:title" content="Blog - Web Design & Development">
   <meta property="og:description" content="RyderTech is a leading web design and development agency specializing in creating stunning, user-friendly websites that drive results.">
-  <meta property="og:image" content="https://rydertech.com/blog/og-image.jpg">
   <meta property="og:url" content="https://rydertech.com/blog">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
