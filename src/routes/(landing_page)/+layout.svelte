@@ -18,10 +18,15 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </svelte:head>
 <Navbar/>
-<div class="container mx-auto px-4 py-6">
-<LiveUpdate />
+<div class="flex flex-col min-h-screen bg-base-100 text-base-content">
+
+	<LiveUpdate />
+
+	<div class="flex-1">
+		{@render children()}
+	</div>
+	
 </div>
-{@render children()}
 <Footer />
 
 <style>
