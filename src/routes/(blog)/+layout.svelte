@@ -3,6 +3,7 @@
 	import { fade } from 'svelte/transition';
 	import { Home, BookOpen, Rss, Menu,  Coins} from '@lucide/svelte';
 	import ThemeToggle from '$lib/components/ThemeToggler.svelte';
+	import LiveUpdate from '$lib/components/LiveUpdate.svelte';
 
 	import { page } from '$app/stores';
 	import '../../app.css'
@@ -40,8 +41,10 @@
 			<ThemeToggle/>
 		</div>
 
+
 		<!-- Main content slot -->
 		<div class="flex flex-col" transition:fade={{ duration: 300 }}>
+			<LiveUpdate />
 			{@render children()}
 		</div>
 		
