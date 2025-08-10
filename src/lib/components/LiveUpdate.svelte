@@ -6,7 +6,7 @@
 </script>
 
 {#if updated.current}
-    <div class="alert alert-info flex justify-end">
+    <div class="alert alert-success flex justify-between items-center">
          <p>{message}</p>
 
         <button onclick={() => location.reload()} class="btn btn-rounded">

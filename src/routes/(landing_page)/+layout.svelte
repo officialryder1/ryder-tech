@@ -20,9 +20,10 @@
 <Navbar/>
 <div class="flex flex-col min-h-screen bg-base-100 text-base-content">
 
+	
 	<LiveUpdate />
-
 	<div class="flex-1">
+		
 		{@render children()}
 	</div>
 	
