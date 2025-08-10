@@ -9,7 +9,7 @@
     <div class="alert alert-info flex justify-end">
          <p>{message}</p>
 
-        <button onclick={() => location.reload()} class="btn">
+        <button onclick={() => location.reload()} class="btn btn-rounded">
             reload the page
         </button>
     </div>
