@@ -39,7 +39,6 @@ self.addEventListener('fetch', (event) => {
     async function respond() {
         const url = new URL(event.request.url)
         const cache = await caches.open(CACHE)
-        console.log(cache)
 
         // `build`/`files` can always be served from the cache
         if (ASSETS.includes(url.pathname)) {
